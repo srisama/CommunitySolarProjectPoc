@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\IndianaUniversity-Data Science\\DSCI-D592-DSIP\\CapstoneProject\\CommunitySolarPOC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D27AB32B-FA7E-4D09-95B3-4C9CBA3D2B2C}|CommunitySolarPoc\\CommunitySolarPoc.csproj|h:\\indianauniversity-data science\\dsci-d592-dsip\\capstoneproject\\communitysolarpoc\\communitysolarpoc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D27AB32B-FA7E-4D09-95B3-4C9CBA3D2B2C}|CommunitySolarPoc\\CommunitySolarPoc.csproj|solutionrelative:communitysolarpoc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27AB32B-FA7E-4D09-95B3-4C9CBA3D2B2C}|CommunitySolarPoc\\CommunitySolarPoc.csproj|h:\\indianauniversity-data science\\dsci-d592-dsip\\capstoneproject\\communitysolarpoc\\communitysolarpoc\\wwwroot\\js\\googlesolarjs\\library\\constants.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D27AB32B-FA7E-4D09-95B3-4C9CBA3D2B2C}|CommunitySolarPoc\\CommunitySolarPoc.csproj|solutionrelative:communitysolarpoc\\wwwroot\\js\\googlesolarjs\\library\\constants.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "H:\\IndianaUniversity-Data Science\\DSCI-D592-DSIP\\CapstoneProject\\CommunitySolarPOC\\CommunitySolarPoc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CommunitySolarPoc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "H:\\IndianaUniversity-Data Science\\DSCI-D592-DSIP\\CapstoneProject\\CommunitySolarPOC\\CommunitySolarPoc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CommunitySolarPoc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBMAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T14:17:13.557Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "constants.js",
+              "DocumentMoniker": "H:\\IndianaUniversity-Data Science\\DSCI-D592-DSIP\\CapstoneProject\\CommunitySolarPOC\\CommunitySolarPoc\\wwwroot\\js\\googlesolarjs\\library\\constants.js",
+              "RelativeDocumentMoniker": "CommunitySolarPoc\\wwwroot\\js\\googlesolarjs\\library\\constants.js",
+              "ToolTip": "H:\\IndianaUniversity-Data Science\\DSCI-D592-DSIP\\CapstoneProject\\CommunitySolarPOC\\CommunitySolarPoc\\wwwroot\\js\\googlesolarjs\\library\\constants.js",
+              "RelativeToolTip": "CommunitySolarPoc\\wwwroot\\js\\googlesolarjs\\library\\constants.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-22T14:15:34.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

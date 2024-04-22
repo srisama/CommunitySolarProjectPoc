@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DFzUe8fcgiu0QNzwtyn7fGAGPqVZtYXUVD3rqoUWZXHREk2oEjuxu1teQ1P6uElnpNpNBXMQK2ogbN/ER9Y3Yw==",
+  "success": true,
+  "projectFilePath": "H:\\IndianaUniversity-Data Science\\DSCI-D592-DSIP\\CapstoneProject\\CommunitySolarPOC\\CommunitySolarPoc\\CommunitySolarPoc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sama2\\.nuget\\packages\\csvhelper\\31.0.4\\csvhelper.31.0.4.nupkg.sha512",
+    "C:\\Users\\sama2\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

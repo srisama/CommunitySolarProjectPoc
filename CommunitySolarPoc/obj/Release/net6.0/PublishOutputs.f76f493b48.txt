@@ -1,0 +1,9 @@
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\CommunitySolarPoc.exe
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\appsettings.json
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\CommunitySolarPoc.dll
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\CommunitySolarPoc.deps.json
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\CommunitySolarPoc.runtimeconfig.json
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\CommunitySolarPoc.pdb
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\CsvHelper.dll
+H:\IndianaUniversity-Data Science\DSCI-D592-DSIP\CapstoneProject\CommunitySolarPOC\CommunitySolarPoc\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll

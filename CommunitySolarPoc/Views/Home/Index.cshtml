@@ -1,0 +1,179 @@
+﻿@model LocationViewModel
+<table width="100%" border="1">
+    <!-- Page Header -->
+    <header class="container">
+    <tr>
+       
+        <td colspan="2">
+            <div class="col-lg-12">
+                <div class="navbar-header">
+                    <table width="100%" >
+                        <tr>
+                            <td width="50%">
+                                <a class="navbar-brand" href="Community Solar Project" title="Go Home">
+                                    <img src="~/img/IU-Luddy.png" class="mainLogo" alt="Idiana Logo" style="width:250px;height:120px;" />
+                                </a>
+                            </td>
+                            <td width="50%" align="right">
+                              
+                                    <strong>
+                                        Data Science In Practice
+                                    </strong><br />
+                                    Community Solar Power Estimator
+
+                               
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </td>
+        
+    </tr>
+    </header>
+    <tr>
+        <td colspan="2">
+            <!-- Google Solar API Address -->
+            <div class="row address_container">
+                <div class="col-2">
+                    <label for="property_address_input" class="text-white">Address: </label>
+                </div>
+                <div class="col">
+                    <select asp-for="SelectedLocation" class="form-control" name="property_address_input" id="property_address_input">
+                        @if (Model.Locations != null)
+                        {
+                            @foreach (var location in Model.Locations)
+                            {
+                                var locationAdd = location.GeoFullAdd;
+                                <option value=@locationAdd.>
+                                    @location.County - @location.GeoCity / @location.GeoFullAdd
+                                </option>
+                            }
+                        }
+                    </select>
+                   
+                </div>
+                <div class="col-2">
+                    <button onclick="getLatLong();">Submit Address</button>
+                </div>
+            
+            </div>
+        </td>
+
+    </tr>
+    <tr>
+        <td colspan="2">
+            <!-- Google Solar API Bulding Insights -->
+            <table border="1" width="100%">
+                <tr>
+                    <td>
+                        <div class="col">
+                            <h5>Google Solar API Data</h5>
+                            <div id="gsa_data"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col">
+                            <label for="system_modules_watts">Module output (watts):</label>
+                            <input type="number" name="system_modules_watts" id="system_modules_watts" value="395"><br />
+                            <label for="system_modules_range">Modules:</label>
+                            <input type="range" name="system_modules_range" id="system_modules_range" min="1" max="100">
+                            <span id="modules_range_display_qty"></span>
+                            <div class="col">
+                                <p>
+                                    Total Output:
+                                    <span id="modules_calculator_display"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+            <div class="row">
+            </div>
+        </td>
+
+    </tr>
+    <tr>
+        <td width="20%">
+            <!-- Google Solar API Controls -->
+            <div class="row app_controls">
+                <table height="100%" border="1" style="height:500px">
+
+                    <tr>
+                        <td>
+                            <div class="col">
+                                <div id="overlayControlsSelect">
+                                    <label for="overlaySelect"><strong>Select Layer</strong></label><br />
+                                    <select id="overlaySelect">
+                                        <option value="0">DSM</option>
+                                        <option value="1">RGB</option>
+                                        <option value="2" selected>Annual Flux</option>
+                                        <option value="3">Monthly Flux</option>
+                                        <option value="4">Hourly Flux</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="col">
+                                <label for="monthSelection"><strong>Month:</label><label for="monthSlider"><span id="monthName">July</span></strong></label><br />
+                                <input type="range" id="monthSlider" min="0" max="11" value="6" step="1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="col">
+                                <label for="hourSlider"><strong>Select Hour: <span id="hourDisplay">12 PM</span></strong></label><br />
+                                <input type="range" id="hourSlider" min="0" max="23" value="12" step="1">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="col">
+                                <input type="checkbox" id="toggleAllOverlays" onclick="toggleAllOverlays()" checked><strong> Display Overlay</strong>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                </table>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </td>
+        <td width="80%">
+            <!-- Google Maps API Container -->
+
+
+            <div class="google_map_container">  </div>
+            <div id="map" class="google_map"></div>
+            <div id="canvas_div"></div>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
